@@ -1,0 +1,38 @@
+/* General styles for the trading dashboard */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #20232a;
+    color: #61dafb;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #20232a;
+    color: #61dafb;
+    text-align: center;
+    padding: 0.5rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#priceChart {
+    width: 90%; /* More responsive width */
+    max-width: 1000px; /* Max width for large screens */
+    height: 450px; /* Slightly taller */
+    margin: 20px auto; /* Add some margin above/below and center */
+    border: 1px solid #ddd; /* Optional border */
+    box-shadow: 0 0 5px rgba(0,0,0,0.1); /* Optional subtle shadow */
+}
